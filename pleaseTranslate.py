@@ -65,7 +65,7 @@ def message_check():
         if '[t-' not in message_text:
             message.mark_as_read()
             continue
-        if message.subject not in ['username mention', 'comment reply'] and not type(message) == praw.objects.Comment:
+        if 'n-/u/pleasetranslate' in message_text:
             message.mark_as_read()
             continue
         try:
@@ -77,6 +77,9 @@ def message_check():
 #Definition that translates the actual message and outputs the result.
 def message_translate():
     for message in r.get_unread():
+        if message.subject not in ['username mention', 'comment reply'] and not type(message) == praw.objects.Comment:
+            message.mark_as_read()
+            continue
         full_message_text = message.body
         messageList = full_message_text.split()
         defaultLang = translator.detect_lang(full_message_text)
@@ -109,19 +112,13 @@ def message_translate():
             message.reply(errorMessage)
             message.mark_as_read()
             continue
-        #Quoting entire message.
-        count = 0
-        for line in full_message_text.splitlines():
-            if line and count < 1:
-                finalized_full_message_text = ">" + line
-                count += 1
-            elif line and count > 0:
-                finalized_full_message_text += "\n\n>" + line
         #Used for setting up designated language in reply message.
         requestTransLang = requestTransLang.replace("[t-", "").replace("]", "")
         requestTransLang = requestTransLang.capitalize()
         #Arranging formattign for translation message.
-        translation = (translator.translate(finalized_full_message_text, lang_from = defaultLang, lang_to = transLang))
+        translation = (translator.translate(full_message_text, lang_from = defaultLang, lang_to = transLang))
+        #Quoting entire message.
+        translation = '>' + translation.replace('\n', '\n>')
         #Replying to user with finalized translation.
         message.reply(transMessage % (finalized_defualtLang, requestTransLang, translation))
         message.mark_as_read()
@@ -129,13 +126,11 @@ def message_translate():
 #Where bot begins (continues) to run.
 print("/u/pleaseTranslate is currently translating. . .\n")
 while True:
-    message_check()
-    message_translate()
-    #try:
-    #    message_check()
-    #    message_translate()
-    #except Exception as e:
-    #    traceback.print_exc()
-    #    time.sleep(30)
+    try:
+        message_check()
+        message_translate()
+    except Exception as e:
+        traceback.print_exc()
+        time.sleep(30)
     
     
