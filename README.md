@@ -1,8 +1,6 @@
 #Welcome!
 
-Most likely you've come across this post/subreddit from /u/pleaseTranslate.
-
-In this post I'll discussing the uses and information of /u/pleaseTranslate (bot).
+I hope you find /u/pleaseTranslate useful and enjoyable!
 
 ###First off though, here are the languages applicable for use:
 
