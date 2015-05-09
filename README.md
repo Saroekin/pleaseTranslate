@@ -132,11 +132,7 @@ If you'd like to converse or talk about /u/pleaseTranslate without him issuing a
 
 #Thanks for reading!
 
-If you have any questions or concerns (as well as request) regarding /u/pleaseTranslate, please submit them in the comments section below.
-
-If you would like to test /u/pleaseTranslate, then head over to this [thread](https://www.reddit.com/r/Saroekin_redditBots/comments/339ez3/bot_testing/).
-
-If you would also like to view /u/pleaseTranslate's source code, then please follow this [link](https://github.com/Saroekin/GoldFact/blob/master/GoldFact.py).
+If you would like to test /u/pleaseTranslate, then please head over to this [thread](https://www.reddit.com/r/Saroekin_redditBots/comments/339ez3/bot_testing/).
 
 ---
 Best regards,
