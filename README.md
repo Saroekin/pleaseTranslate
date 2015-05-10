@@ -9,7 +9,7 @@ I hope you find /u/pleaseTranslate useful and enjoyable!
 **Language Name**| **Language Code**
 ---|---
 Arabic| ar
-Bosnian_Latin| bn_latn
+Bosnian_Latin| bs_latn
 Bulgarian| bg
 Catalan| ca
 Chinese_simplified| zh_CHS
