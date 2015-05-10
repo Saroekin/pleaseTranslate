@@ -121,12 +121,12 @@ Full response example:
 >---
 >*I am a bot. If you have any questions or concerns, please feel free to contact my [creator](https://www.reddit.com/message/compose/?to=Saroekin&subject=/u/pleaseTranslate).*
 
->^| ^[Source](https://github.com/Saroekin/pleaseTranslate) ^| ^[Functionalities](https://www.reddit.com/r/Saroekin_redditBots/comments/354g14/upleasetranslate_information/) ^|
+>| [Source](https://github.com/Saroekin/pleaseTranslate) | [Functionalities](https://www.reddit.com/r/Saroekin_redditBots/comments/354g14/upleasetranslate_information/) |
 
 =
 If you'd like to converse or talk about /u/pleaseTranslate without him issuing a translation or comment, then use this command:
 
->n-/u/pleaseTranslate
+>+/u/pleaseTranslate
 
 ###*(More features coming soon)*
 
