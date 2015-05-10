@@ -9,6 +9,7 @@ I hope you find /u/pleaseTranslate useful and enjoyable!
 **Language Name**| **Language Code**
 ---|---
 Arabic| ar
+Bosnian_Latin| bn_latn
 Bulgarian| bg
 Catalan| ca
 Chinese_simplified| zh_CHS
@@ -31,7 +32,7 @@ Indonesian| id
 Italian| it
 Japanese| ja
 Klingon| tlh
-Klingon_(pIqaD)| tlh-Qaak
+Klingon_(pIqaD)| tlh_Qaak
 Korean| ko
 Latvian| lv
 Lithuanian| lt
