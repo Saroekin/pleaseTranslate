@@ -136,6 +136,6 @@ If you'd like to converse or talk about /u/pleaseTranslate without him issuing a
 If you would like to test /u/pleaseTranslate, then please head over to this [thread](https://www.reddit.com/r/Saroekin_redditBots/comments/339ez3/bot_testing/).
 
 ---
-Best regards,
+*Best regards,*
 
-Saroekin.
+*Saroekin*
